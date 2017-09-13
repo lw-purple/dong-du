@@ -3,5 +3,16 @@
     <button nz-button [nzType]="'primary'">
         <span>Primary</span>
       </button>
+    <nz-breadcrumb>
+        <nz-breadcrumb-item>
+            <i class="anticon anticon-android-o"></i>
+        </nz-breadcrumb-item>
+        <nz-breadcrumb-item>
+            <a routerLink="/settings/password"><i class="anticon anticon-user"></i><span>Application List</span></a>
+        </nz-breadcrumb-item>
+        <nz-breadcrumb-item>
+            <a routerLink="/settings/profile">Application</a>
+        </nz-breadcrumb-item>
+    </nz-breadcrumb>
     <router-outlet></router-outlet>
 </p>
