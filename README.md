@@ -1,6 +1,6 @@
 # DongDu
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.
+这是一个ng4的项目，使用阿里的ant框架
 
 ## Development server
 

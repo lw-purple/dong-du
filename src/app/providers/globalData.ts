@@ -1,5 +1,5 @@
 /**
- * Created by yanxiaojun on 2017/4/13.
+ *  this data is save global Data
  */
 import {Injectable} from '@angular/core';
 
