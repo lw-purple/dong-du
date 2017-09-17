@@ -5,6 +5,7 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { SettingsComponent } from './settings.component'
 import { ProfileComponent } from './profile/profile.component'
 import { PasswordComponent } from './password/password.component'
+import { GreetDirective } from './../greet.directive';
 export const ROUTES: Routes = [
     {
         path: '',
@@ -26,7 +27,8 @@ export const ROUTES: Routes = [
     declarations: [
         SettingsComponent,
         ProfileComponent,
-        PasswordComponent
+        PasswordComponent,
+        GreetDirective
     ],
     exports:[
         NgZorroAntdModule
